@@ -1,24 +1,28 @@
-# Aprendizaje Automático (UAX) 👋
+# UAX · VCMT 26/27👋
 
-Bienvenidos a la organización de GitHub de la asignatura de **Aprendizaje Automático**. Aquí es donde vais a trabajar vuestras prácticas: entrenamiento de modelos de Deep Learning (CNN, RNN, RAG y similares), con un flujo de trabajo igual al que os vais a encontrar en cualquier equipo real de desarrollo.
+Bienvenidos a la organización de GitHub de la promoción. Aquí encontraréis los repositorios de las distintas asignaturas, con un flujo de trabajo igual al que os vais a encontrar en cualquier equipo real de desarrollo.
+
+Cada repositorio indica su asignatura en el prefijo del nombre y en sus *topics*, así que podéis filtrarlos desde la pestaña **Repositories**.
 
 ## Por dónde empezar
 
-1. Partid siempre de la plantilla del curso: **[base-github-template](https://github.com/UAX-VCMT-AA/base-github-template)**. Trae ya montada la estructura de carpetas, las tres formas de gestionar el entorno (Poetry, venv, Conda), `.gitignore`, integración continua y una guía completa en su propio README.
+1. Partid siempre de la plantilla del curso: **[base-github-template](https://github.com/UAX-VCMT-26-27/base-github-template)**. Trae ya montada la estructura de carpetas, las tres formas de gestionar el entorno (Poetry, venv, Conda), `.gitignore`, integración continua y una guía completa en su propio README.
 2. Basaos en ella para vuestro repositorio de práctica, en vuestra propia cuenta.
 
-## Autenticación con GitHub
+## Autenticación con GitHub (LAB-1)
 
-¿Primera vez configurando el acceso por token para clonar y trabajar con VSCode? Sigue la **[guía de autenticación](https://github.com/UAX-VCMT-AA/.github/blob/main/authentication/README.md)** — ahí están todos los pasos, desde crear el token hasta dejar el repo conectado, con capturas de cada pantalla.
+En el **LAB-1** trabajamos con **máquinas compartidas**, así que no podéis dejar vuestra sesión de GitHub iniciada en el equipo. Para clonar y trabajar con VSCode usaréis un **token de acceso personal (PAT)**. Seguid la **[guía de autenticación](https://github.com/UAX-VCMT-26-27/.github/blob/main/authentication/README.md)**: ahí están todos los pasos, desde crear el token hasta dejar el repo conectado, con capturas de cada pantalla.
+
+> ⚠️ El token es como una contraseña: no lo compartáis, no lo subáis a ningún repositorio y revocadlo al terminar la sesión.
 
 ## Normas del repositorio
 
-- **Un repositorio por práctica**, creado a partir de la plantilla — no reutilicéis un mismo repo para prácticas distintas.
+- **Un repositorio por práctica**, creado a partir de la plantilla. No reutilicéis un mismo repo para prácticas distintas.
 - **Commits con [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/)**: `feat`, `fix`, `docs`, `chore`, `ci`, `test`... Un commit, un propósito. El detalle completo está en el README de la plantilla.
 - **Nunca subáis secretos**: claves de API, tokens o contraseñas van en vuestro `.env` local, que nunca se versiona. Usad `.env.example` para documentar qué variables hace falta rellenar.
-- **Nunca subáis datos ni modelos pesados** al repositorio: `data/` y `models/` están para uso local; si necesitáis compartir un modelo entrenado, subidlo al Hugging Face Model Hub (ver la guía en `app/README.md` de la plantilla).
+- **Nunca subáis datos ni modelos pesados** al repositorio: `data/` y `models/` están para uso local. Si necesitáis compartir un modelo entrenado, subidlo al Hugging Face Model Hub (ver la guía en `app/README.md` de la plantilla).
 - **README actualizado**: cada práctica debe explicar en su propio README qué hace, cómo instalarla y cómo ejecutarla.
 
 ---
 
-¿Dudas sobre cómo montar el entorno, el `.gitignore`, la CI o cómo desplegar una demo? Todo eso está documentado en el README de la [plantilla base](https://github.com/UAX-VCMT-AA/base-github-template) — es vuestro punto de partida y de referencia durante todo el curso.
+¿Dudas sobre cómo montar el entorno, el `.gitignore`, la CI o cómo desplegar una demo? Todo eso está documentado en el README de la [plantilla base](https://github.com/UAX-VCMT-26-27/base-github-template), que es vuestro punto de partida y de referencia durante todo el curso.
